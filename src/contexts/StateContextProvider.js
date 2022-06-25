@@ -18,7 +18,7 @@ export const StateContextProvider = ({ children }) => {
         'x-rapidapi-key': process.env.REACT_APP_API_KEY,
       },
     });
-console.log(process.env.REACT_APP_API_KEY);
+
     const data = await res.json();
 
     setResults(data);

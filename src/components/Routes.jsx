@@ -12,13 +12,13 @@ export const Routes = () => (
       <Route exact path="/search">
         <Results />
       </Route>
-      <Route path="/images">
+      <Route path="/image">
         <Results />
       </Route>
       <Route path="/news">
         <Results />
       </Route>
-      <Route path="/videos">
+      <Route path="/video">
         <Results />
       </Route>
 
